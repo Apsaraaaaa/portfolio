@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#">Apsara's Portfolio</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check" />
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="section__container">
+            <div class="image">
+                <img src="a.jpg" alt="profile" />
+            </div>
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    I'm <span>Apsara<br />a</span> Web Developer
+                </h1>
+                <p class="description">
+                    Welcome to my web developer portfolio! I'm Apsara, a skilled and
+                    creative web developer with a passion for creating beautiful,
+                    responsive, and user-friendly websites. I've worked on a variety of
+                    web projects, ranging from personal blogs to e-commerce platforms.
+                </p>
+                <div class="action__btns">
+                    <a href="resume.html" class="hire__me">Hire Me</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div>
+        <section class="about-section">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="a.jpg" alt="profile" />
+                </div>
+                <div class="about-content">
+                    <h1 class="about-title">About Me</h1>
+                    <p class="about-description">
+                        Hi, I'm Apsara, a passionate web developer with a love for coding and design.
+                        I specialize in building responsive and user-friendly websites using the latest
+                        technologies. My goal is to create seamless, beautiful digital experiences that
+                        provide value to users.
+                    </p>
+                    <div class="about-skills">
+                        <h2>Skills & Expertise</h2>
+                        <ul>
+                            <li>HTML & CSS</li>
+                            <li>JavaScript & React</li>
+                            <li>Responsive Web Design</li>
+                            <li>UX/UI Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div>
+        <section class="hero">
+            <div class="hero-content">
+                <img src="aa.jpg" alt="Profile Picture" class="profile-img">
+                <h1>Apsara</h1>
+                <p class="tagline">Creative Web Developer | Passionate About Coding</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="progress-bar" style="width: 85%"></div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar" style="width: 75%"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-container">
+                <div class="job">
+                    <i class="ri-briefcase-line"></i>
+                    <h3>Front-End Developer</h3>
+                    <p>Texas, 2020 - Present</p>
+                    <p>Developing dynamic and responsive websites and web applications using HTML, CSS, and JavaScript.
+                    </p>
+                </div>
+                <div class="job">
+                    <i class="ri-briefcase-line"></i>
+                    <h3>Web Developer Intern</h3>
+                    <p>Company, 2022 - 2025</p>
+                    <p>Assisting in web development tasks, including website design and front-end coding under senior
+                        developers' guidance.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container">
+                <i class="ri-book-line"></i>
+                <h3>Bachelor in Information Technology</h3>
+                <p>Texas College of Management and IT, 2019 - 2022</p>
+            </div>
+        </section>
+    </div>
+    <div>
+        <section id="contact" class="section">
+            <div class="contact-container">
+                <h1>Contact Me</h1>
+                <p>I'd love to hear from you! Feel free to send a message below.</p>
+                <form class="contact-form" onsubmit="return validateForm()">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="social-media">
+                    <h2>Follow Me</h2>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/apsaraaaa____/" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/apsara-siwakoti-91b045315/" target="_blank"
+                            class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            function validateForm() {
+                const name = document.getElementById("name").value.trim();
+                const email = document.getElementById("email").value.trim();
+                const message = document.getElementById("message").value.trim();
+
+                if (name === "" || email === "" || message === "") {
+                    alert("Please fill in all fields.");
+                    return false;
+                }
+
+                alert("Message sent successfully!");
+                return true;
+            }
+        </script>
+    </div>
+
+</body>
+<footer>
+    <p>&copy; 2025 Your Company. All rights reserved.</p>
+</footer>
+
+</html>
